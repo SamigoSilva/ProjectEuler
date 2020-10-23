@@ -35,7 +35,7 @@ def calc_prob(i, string):
     return prob
 
 if __name__ == '__main__':
-	result = 0
+	resultado = 0
 	for i in range(1, 501):
-		result += calc_prob(i, 'PPPPNNPPPNPPNPN')   #Chama a probabilidade de acordo com quantas coaxadas que o sapo realizara 
-	print("O resultado é:", result/500)                 #Resultado baseado na probabilidade pelo número de quadrados
+		resultado += calc_prob(i, 'PPPPNNPPPNPPNPN')   #Chama a probabilidade de acordo com quantas coaxadas que o sapo realizara 
+	print("O resultado é:", resultado/500)                 #Resultado baseado na probabilidade pelo número de quadrados
